@@ -1,13 +1,11 @@
-# M2 Exponential Renormalization Law
+# M2 Renormalization Law (Geometric Only)
 
-**Status (2026-08-14):** Provisional geometric/LDOS enhancement (Option A).
+**Status (2026-08-17):** Provisional ansatz. README-only repository.
 
 \[
 f(n) = e^{0.23(n-1)}
 \]
 
-Multiplies engineering surface integrals only. Does **not** renormalize the Einstein-equation coupling \(W_\star=1/(4\pi)\).
+Under **Option A**, this factor multiplies engineering / LDOS surface terms only. It does **not** rescale the Einstein-equation coupling \(W_\star = 1/(4\pi)\).
 
-Ghost-free gravitational sector automatic under Option A.
-
-Canonical math: [ware-constant-phenomenology](https://github.com/beyond-repair/ware-constant-phenomenology)
+Canonical ledger: [ware-constant-phenomenology](https://github.com/beyond-repair/ware-constant-phenomenology)
