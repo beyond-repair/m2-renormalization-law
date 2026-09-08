@@ -55,3 +55,5 @@ README-level provisional ansatz. Full freeze text:
 [coherence-drive/docs/MATH_THEORY_CLOSURE.md](https://github.com/beyond-repair/coherence-drive/blob/main/docs/MATH_THEORY_CLOSURE.md)
 
 Ledger: [ware-constant-phenomenology](https://github.com/beyond-repair/ware-constant-phenomenology)
+
+Governance lock: see [GOVERNANCE.md](GOVERNANCE.md) (RESEARCH classification, claim caps).
