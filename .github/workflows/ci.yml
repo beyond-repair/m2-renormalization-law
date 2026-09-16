@@ -15,5 +15,9 @@ jobs:
         uses: actions/setup-python@v5
         with:
           python-version: "3.12"
+      - name: Install
+        run: pip install numpy pytest
       - name: Run parameter-free sweep lock
         run: python3 scripts/parameter_free_sweep.py
+      - name: Spectral / W tests
+        run: python3 -m pytest -q
