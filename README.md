@@ -34,7 +34,7 @@ Deprecated indexing $W(n)=0.08\,e^{0.23(n-1)}$ — do not use for new residual-f
 |-------|-------------------|--------|
 | $W$-only (geometry frozen) | $0.795:1.000:1.259$ | consistent with $W(n)$ |
 | $W\times(3\alpha)^n$, $\alpha=0.45$ | $0.589:1.000:1.699$ | consistent product model |
-| Hybrid $0.795:1.000:1.993$ | — | **REJECTED** (not produced by either model) |
+| Hybrid $0.795:1.000:1.993$ | — | **REJECTED** |
 
 Adding $\chi$, $\eta$, $D_{\rm eff}(n)$, or efficiency factors to recover the hybrid is calibration, not prediction.
 
@@ -44,7 +44,8 @@ Reproduce:
 python3 scripts/parameter_free_sweep.py
 ```
 
-Full lock text: [FALSIFICATION.md](FALSIFICATION.md)
+Full lock text: [FALSIFICATION.md](FALSIFICATION.md)  
+Graph-spectrum lock used by `m2/spectral.py` (not $F_n$): [SPECTRUM_POINTER.md](SPECTRUM_POINTER.md)
 
 ## Decisive next test
 
@@ -57,6 +58,6 @@ If that chain does not recover a published ratio set, the set stays rejected.
 
 README-level provisional ansatz.  
 Freeze: [coherence-drive/docs/MATH_THEORY_CLOSURE.md](https://github.com/beyond-repair/coherence-drive/blob/main/docs/MATH_THEORY_CLOSURE.md)  
-Audit: [coherence-drive/docs/AUDIT_2026-09-12.md](https://github.com/beyond-repair/coherence-drive/blob/main/docs/AUDIT_2026-09-12.md)  
+Portfolio map: [coherence-drive/docs/PORTFOLIO_MATH_2026-09-21.md](https://github.com/beyond-repair/coherence-drive/blob/main/docs/PORTFOLIO_MATH_2026-09-21.md)  
 Ledger: [ware-constant-phenomenology](https://github.com/beyond-repair/ware-constant-phenomenology)  
 Governance: [GOVERNANCE.md](GOVERNANCE.md) / [CLAIM_STATUS.md](CLAIM_STATUS.md)
