@@ -4,7 +4,8 @@
 **Claim level:** 1 (provisional scaling ansatz)  
 **Governing source:** [ADL-Governance](https://github.com/beyond-repair/ADL-Governance)  
 **Canonical program:** [coherence-drive](https://github.com/beyond-repair/coherence-drive)  
-**Lock date:** 2026-09-12 (Sweep-137 — ratio falsification lock)
+**Lock date:** 2026-09-12 (Sweep-137 — ratio falsification lock)  
+**Addendum:** 2026-09-22 spectrum pointer only
 
 ## Supported claims
 
@@ -19,6 +20,7 @@
   Independent of whether $W(n)$ is indexed at $n-3$ or $n-1$ (the extra $e^{0.46}$ cancels in ratios).
 - $W$-only ratios (geometry held fixed, no $(3\alpha)^n$):
   $$W(2):W(3):W(4)\approx 0.795:1.000:1.259$$
+- Combinatorial gasket Laplacian used by `m2/spectral.py` has the discrete locks listed in [SPECTRUM_POINTER.md](SPECTRUM_POINTER.md). Those locks are graph identities, not $F_n$.
 
 ## Explicit non-claims
 
@@ -26,10 +28,10 @@
 - Not experimentally validated.
 - Not a proven physical law, no-ghost theorem, or propulsion prediction.
 - **Rejected as a parameter-free prediction:** $0.795:1.000:1.993$.
-  That triple mixes the $W$-only $n=2$ ratio ($\approx 0.795$) with a stronger $n=4$ geometric boost and is **not** produced by any single published factor in this repo.
 - Adding $\chi$, $\eta$, $D_{\rm eff}(n)$, efficiency factors, or other $n$-dependent compensators after observing the mismatch is **calibration**, not prediction.
 - Deprecated indexing $W(n)=0.08\,e^{0.23(n-1)}$ must not be used for new residual-force work.
 - No product, anomalous-thrust, energy-extraction, biological, PIF, or Orch-OR status.
+- Gasket $\lambda_{\max}=6$ / Kigami $3/5$ / tilt $\|F\|$ are **not** M2 ratio derivations.
 
 ## Decisive next test (Stage 2)
 
@@ -43,7 +45,6 @@ If not, the published set stays rejected.
 ## Evidence precedence
 
 `scripts/parameter_free_sweep.py` is the numeric lock for the product-model ratios.  
-Freeze text: [coherence-drive/docs/MATH_THEORY_CLOSURE.md](https://github.com/beyond-repair/coherence-drive/blob/main/docs/MATH_THEORY_CLOSURE.md)  
-Audit addendum: [coherence-drive/docs/AUDIT_2026-09-12.md](https://github.com/beyond-repair/coherence-drive/blob/main/docs/AUDIT_2026-09-12.md)
+Freeze text: [coherence-drive/docs/MATH_THEORY_CLOSURE.md](https://github.com/beyond-repair/coherence-drive/blob/main/docs/MATH_THEORY_CLOSURE.md)
 
 Any elevation of claim level requires operator review + registry update in ADL-Governance.
