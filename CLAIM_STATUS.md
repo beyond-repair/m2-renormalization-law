@@ -5,7 +5,8 @@
 **Governing source:** [ADL-Governance](https://github.com/beyond-repair/ADL-Governance)  
 **Canonical program:** [coherence-drive](https://github.com/beyond-repair/coherence-drive)  
 **Lock date:** 2026-09-12 (Sweep-137 — ratio falsification lock)  
-**Addendum:** 2026-09-22 spectrum pointer only
+**Addendum:** 2026-09-22 spectrum pointer only  
+**Addendum:** 2026-10-01 pinch-seed pointer (does not raise claim level)
 
 ## Supported claims
 
@@ -32,6 +33,7 @@
 - Deprecated indexing $W(n)=0.08\,e^{0.23(n-1)}$ must not be used for new residual-force work.
 - No product, anomalous-thrust, energy-extraction, biological, PIF, or Orch-OR status.
 - Gasket $\lambda_{\max}=6$ / Kigami $3/5$ / tilt $\|F\|$ are **not** M2 ratio derivations.
+- The 2026-10-01 pinch-family heat trace does **not** derive the seed $0.08$ or $\xi=0.23$. See [PINCH_SEED_POINTER_2026-10-01.md](PINCH_SEED_POINTER_2026-10-01.md). $\beta=-0.005888$ is circular if used to recover $0.08$.
 
 ## Decisive next test (Stage 2)
 
