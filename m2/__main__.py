@@ -1,0 +1,4 @@
+from m2.report import main
+
+if __name__ == "__main__":
+    main()
